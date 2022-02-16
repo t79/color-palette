@@ -105,3 +105,26 @@ menu sup {
 footer {
     font-size: 0.9em;
 }
+
+#output-palette-view {
+    width: 100%;
+    display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 0.3em;
+    padding: 1em 0em 1em 0em;
+    margin: 0;
+    overflow: hidden;
+}
+
+.palette-container {
+    position: relative;
+    min-width: 40%;
+    margin: 0;
+    display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+    gap: 0;
+	align-items: center;
+}
