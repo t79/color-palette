@@ -128,3 +128,13 @@ footer {
     gap: 0;
 	align-items: center;
 }
+
+#controler-view {
+    width: 100%;
+    margin: 0;
+    display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+    gap: 1em;
+	align-items: center;
+}
